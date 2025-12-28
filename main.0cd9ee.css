@@ -36,6 +36,14 @@ body {
     font-size: normal;
 }
 
+.cards-services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem;
+}
+
 .cards {
     width: 700px;
     display: flex;
@@ -84,6 +92,7 @@ header h1 {
     padding-bottom: 0;
     line-height: normal;
     font-size: 3rem;
+    font-style: italic;
     text-shadow:
         0 0 25px rgba(122, 0, 255, 0.6),
         -1px -1px 0 rgba(122, 0, 255, 0.9),
@@ -118,6 +127,7 @@ footer {
     justify-self: center;
     width: 700px;
     padding: 0rem 0.3rem 0rem 0;
+    margin-bottom: 2rem;
 }
 
 footer p {
@@ -177,15 +187,22 @@ ul li::before {
     top: 0.5rem;
 }
 
+.contact-buttons {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .telegram-button {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     justify-self: center;
     align-items: center;
     background-color: #0088cc;
     color: white;
-    margin-top: 2rem;
-    padding: 10px 20px;
+    padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
